@@ -1,5 +1,9 @@
 # a python function to create back up import and file imports on the CHPC PBS. 
-# Might change the os with the path lib and refactor it
+#Gaurav Sablok 
+#Senior Postdoctoral Fellow Faculty of Natural and Agricultural Sciences 
+#Room 7-35, Agricultural Sciences Building 
+#University of Pretoria, Private Bag X20 Hatfield 0028, 
+#South Africa 
 import os 
 import subprocess
 def PBSBackUpSimulator():
