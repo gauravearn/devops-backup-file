@@ -17,7 +17,7 @@ def PBSBackUpSimulator():
         print(f"the original directory path is: {dir_extend} and the \
                       the clone directory path is {dir_clone} and the file \
                                      is {file_extension}")
-    if !os.path.exists(dir):
+    if not os.path.exists(dir):
         os.mkdir(os.path.join(os.getcwd(), clone_dir))
         print(f"the path to the clone directory is: {os.path.join(os.getcwd(), clone_dir)}") 
     filenames = []
